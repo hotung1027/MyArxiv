@@ -9,7 +9,7 @@ on:
     # Adjust refresh schedule here. By default, it runs once per day.
     # Syntax reference: https://docs.github.com/en/actions/reference/events-that-trigger-workflows#schedule
     # Recommended tool: https://crontab.guru/
-    - cron: "12 5 * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   build:
@@ -36,7 +36,7 @@ jobs:
             -H "Accept: application/octet-stream" \
             -H "Authorization: Bearer ${GITHUB_PAT}" \
               -o "${RENAME}" \
-              "$(cat asset.url)"
+              "$(gato asset.url)"
           tar -zxvf arxivfeed.tgz --strip-components 1 $(tar tf arxivfeed.tgz | grep /arxivfeed)
           chmod +x arxivfeed
       - name: Build rss
