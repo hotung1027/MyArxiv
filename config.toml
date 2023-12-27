@@ -5,37 +5,37 @@ cache_url = "https://hotung1027.github.io/MyArxiv/cache.json"
 # Optimization
 
 [[sources]]
-limit = 5
+limit = 50
 category = "math.OC"
 title = "Optimization and Control"
 
 [[sources]]
-limit = 5
+limit = 50
 category = "cs.PF"
 title = "Performance"
 
 [[sources]]
-limit = 5
+limit = 50
 category = "cs.CL"
 title = "Computation and Language"
 
 [[sources]]
-limit = 20
+limit = 150
 category = "cs.CV"
 title = "computadora Vision and Pattern Recognition"
 
 [[sources]]
-limit = 20
+limit = 150
 category = "eess.IV"
 title = "Image and Video Processing"
 
 [[sources]]
-limit = 20
+limit = 100
 category = "cs.GR"
 title = "Graphics"
 
 [[sources]]
-limit = 20
+limit = 150
 category = "eess.SP"
 title = "Signal Processing"
 
@@ -62,7 +62,7 @@ category = "cs.IT"
 title = "Information Theory"
 
 [[sources]]
-limit = 5
+limit = 20
 category = "math.IT"
 title = "Information Theory"
 
@@ -82,12 +82,12 @@ category = "cs.SC"
 title = "Symbolic Computation"
 
 [[sources]]
-limit = 20
+limit = 150
 category = "cs.LG"
 title = "Machine Learning"
 
 [[sources]]
-limit = 20
+limit = 150
 category = "cs.AI"
 title = "Artificial Intelligence Learning"
 
@@ -104,22 +104,22 @@ title = "Systems and Control"
 
 
 [[sources]]
-limit = 20
+limit = 50
 category = "cs.RO"
 title = "Robotics"
 
 [[sources]]
-limit = 10
+limit = 20
 category = "math.AP"
 title = "Analysis of PDEs"
 
 [[sources]]
-limit = 10
+limit = 20
 category = "cs.CA"
 title = "Classical Analysis and ODEs"
 
 [[sources]]
-limit = 5
+limit = 20
 category = "cs.DS"
 title = "Dynamical Systems"
 
