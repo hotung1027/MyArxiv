@@ -2,6 +2,18 @@ site_title = "MyArxiv"
 limit_days = 7
 cache_url = "https://hotung1027.github.io/MyArxiv/cache.json"
 
+# Optimization
+
+[[sources]]
+limit = 5
+category = "math.OC"
+title = "Optimization and Control"
+
+[[sources]]
+limit = 5
+category = "cs.PF"
+title = "Performance"
+
 [[sources]]
 limit = 5
 category = "cs.CL"
@@ -10,7 +22,7 @@ title = "Computation and Language"
 [[sources]]
 limit = 20
 category = "cs.CV"
-title = "Computer Vision and Pattern Recognition"
+title = "computadora Vision and Pattern Recognition"
 
 [[sources]]
 limit = 20
@@ -47,6 +59,11 @@ title = "Game Theory"
 [[sources]]
 limit = 20
 category = "cs.IT"
+title = "Information Theory"
+
+[[sources]]
+limit = 5
+category = "math.IT"
 title = "Information Theory"
 
 [[sources]]
@@ -91,13 +108,29 @@ limit = 20
 category = "cs.RO"
 title = "Robotics"
 
+[[sources]]
+limit = 10
+category = "math.AP"
+title = "Analysis of PDEs"
+
+[[sources]]
+limit = 10
+category = "cs.CA"
+title = "Classical Analysis and ODEs"
+
+[[sources]]
+limit = 5
+category = "cs.DS"
+title = "Dynamical Systems"
+
+
 
 [[sources]]
 limit = 20
 category = "cs.AR"
 title = "Hardware Architecture"
 
-
+# Finance
 
 [[sources]]
 limit = 20
