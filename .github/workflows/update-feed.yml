@@ -36,7 +36,7 @@ jobs:
             -H "Accept: application/octet-stream" \
             -H "Authorization: Bearer ${GITHUB_PAT}" \
               -o "${RENAME}" \
-              "$(gato asset.url)"
+              "$(cat asset.url)"
           tar -zxvf arxivfeed.tgz --strip-components 1 $(tar tf arxivfeed.tgz | grep /arxivfeed)
           chmod +x arxivfeed
       - name: Build rss
